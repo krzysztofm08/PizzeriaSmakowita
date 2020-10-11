@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'SabotaseRegular';
+    src: url('font/Sabotase-Regular.otf');
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #a4b9afd7;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.topBox {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    background: url(pics/pizzaBackgroundTop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: start;
+    justify-content: center;
+}
+h1 {
+    color: red;
+    font-size: 10rem;
+    font-weight: 800;
+    align-items: flex-start;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    font-family: 'SabotaseRegular', Verdana, sans-serif;
+}
+.topNav {
+    margin-left: 3vw;
+}
+.navList {
+    display: flex;
+    align-items: flex-end;
+}
+.navListItem {
+    margin: 1vw;
+    padding: 0.5vw;
+    font-size: 1.75rem;
+    border-style: solid;
+    border-color: #a4b9afd7;
+    border-width: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.navListItem:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.middleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    font-size: 2vw;
+}
+.insideImages {
+    display: flex;
+    flex-basis: 50%;
+}
+.insideImagesItem {
+    height: 30vw;
+    width: 45vw;
+    margin: 1vw;
+}
+footer {
+    height: 30vh;
+    background: url(pics/footerImg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.footerContainer {
+    display: inline-block;
+    margin-top: 16vh;
+    margin-left: 60vw;
+    margin-right: 1vw;
+}
+.footerH3 {
+    color: red;
+    font-size: 3vw;
+    font-weight: 800;
+    font-family: 'SabotaseRegular', Verdana, sans-serif;
+}
+.footerP {
+    color: blueviolet;
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+
+.siteAuthor {
+    color: orangered;
+    font-size: 1.25vw;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Menu*/
+.middleMenu {
+    color: red;
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: 'SabotaseRegular', Verdana, sans-serif;
+    margin-bottom: 1vw;
+}
+
+.middleMenuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleMenuListItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    margin: 0.25vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.25rem;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+    font-weight: 600;
+}
+
+.middleMenuListItem:hover {
+    background-color: rgba(150, 150, 150, 0.3);
+    transition: 0.3s;
+}
+
+.middleMenuImagesItem {
+    height: 3vw;
+    width: 4.5vw;
+    margin: 1vw;
+}
+
+.middleMenuPizzaDescription {
+    display: visible;
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+.pizzaList {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    gap: 10px 20px; 
+}
+
+.drinksList {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    gap: 10px 20px;
+    display: none; 
+    margin-top: 1vw;
+}
+
+.beersList {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    gap: 10px 20px; 
+    display: none;
+    margin-top: 1vw;
+}
+
+.listPositionAndDescription {
+    margin-right: 5vw;
+}
+
+.listPosition {
+    font-size: 1.75vw;
+}
+
+.listPosition:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.listDescription {
+    font-size: 1.25vw;
+    color: red;
+}
+
+/* Kontakt */
+.middleBoxContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleBoxContactText {
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+iframe {
+    width: 30vw;
+    height: 30vw;
+    margin: 3vw;
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.2vw;
+    border-radius: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    padding-top: 0vw;
+}
+
+.contactBoxTitle {
+    color: red;
+    font-size: 10rem;
+    font-weight: 800;
+    align-items: flex-start;
+    font-family: 'SabotaseRegular', Verdana, sans-serif;
+    margin: 1vw;
+}
+
+.breakLine {
+    height: 1vw;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        color: red;
+        font-size: 6rem;
+        font-weight: 800;
+        align-items: flex-start;
+        margin-left: 3vw;
+        margin-right: 1vw;
+        font-family: 'SabotaseRegular', Verdana, sans-serif;
+    }
+
+    .contactBoxTitle {
+        color: red;
+        font-size: 6rem;
+        font-weight: 800;
+        align-items: flex-start;
+        font-family: 'SabotaseRegular', Verdana, sans-serif;
+        margin: 1vw;
+    }
+
+    .navListItem {
+        margin: 1vw;
+        padding: 0.5vw;
+        font-size: 1.25rem;
+        border-style: solid;
+        border-color: #a4b9afd7;
+        border-width: 0.25rem;
+        border-radius: 0.5rem;
+    }
+}
