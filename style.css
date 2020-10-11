@@ -10,6 +10,9 @@ html{
 body {
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .topBox {
     display: flex;
@@ -58,6 +61,7 @@ h1 {
     align-items: center;
     padding: 1vw;
     font-size: 2vw;
+    min-height: 40vh;
 }
 .insideImages {
     display: flex;
@@ -194,6 +198,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 40vh;
 }
 .middleBoxContactText {
     font-size: 1.5vw;
